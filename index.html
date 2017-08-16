@@ -1,255 +1,1141 @@
 <!DOCTYPE html>
-<html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
 
-    
 
-    <title>
-      Hexo 
-    </title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    
-      <meta name="author" content="vafang">
-    
-    
 
-    <meta property="og:type" content="website">
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2" />
+
+
+
+
+
+
+<meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
-    
-    
-    
-      <link rel="icon" type="image/x-icon" href="/favicon.png">
-    
-    <link rel="stylesheet" href="/css/uno.css">
-    <link rel="stylesheet" href="/css/highlight.css">
-    <link rel="stylesheet" href="/css/archive.css">
-    <link rel="stylesheet" href="/css/china-social-icon.css">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/"/>
+
+
+
+
+
+  <title>Hexo</title>
+  
+
+
+
+
+
+
+
 
 </head>
-<body>
 
-    <span class="mobile btn-mobile-menu">
-        <i class="icon icon-list btn-mobile-menu__icon"></i>
-        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
-    </span>
-
-    
- 
-<header class="panel-cover">
-
-
-  <div class="panel-main">
+<body itemscope itemtype="http://schema.org/WebPage" lang="">
 
   
-    <div class="panel-main__inner panel-inverted">
-    <div class="panel-main__content">
+  
+    
+  
 
-        
+  <div class="container sidebar-position-left 
+   page-home 
+ ">
+    <div class="headband"></div>
 
-        <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage">Hexo</a></h1>
-        <hr class="panel-cover__divider" />
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
 
-        
-
-        <div class="navigation-wrapper">
-
-          <nav class="cover-navigation cover-navigation--primary">
-            <ul class="navigation">
-
-              
-                
-                <li class="navigation__item"><a href="/#blog" title="" class="blog-button">首页</a></li>
-              
-                
-                <li class="navigation__item"><a href="/about" title="" class="">关于</a></li>
-              
-                
-                <li class="navigation__item"><a href="/archive" title="" class="">归档</a></li>
-              
-
-            </ul>
-          </nav>
-
-          <!-- ----------------------------
-To add a new social icon simply duplicate one of the list items from below
-and change the class in the <i> tag to match the desired social network
-and then add your link to the <a>. Here is a full list of social network
-classes that you can use:
-
-    icon-social-500px
-    icon-social-behance
-    icon-social-delicious
-    icon-social-designer-news
-    icon-social-deviant-art
-    icon-social-digg
-    icon-social-dribbble
-    icon-social-facebook
-    icon-social-flickr
-    icon-social-forrst
-    icon-social-foursquare
-    icon-social-github
-    icon-social-google-plus
-    icon-social-hi5
-    icon-social-instagram
-    icon-social-lastfm
-    icon-social-linkedin
-    icon-social-medium
-    icon-social-myspace
-    icon-social-path
-    icon-social-pinterest
-    icon-social-rdio
-    icon-social-reddit
-    icon-social-skype
-    icon-social-spotify
-    icon-social-stack-overflow
-    icon-social-steam
-    icon-social-stumbleupon
-    icon-social-treehouse
-    icon-social-tumblr
-    icon-social-twitter
-    icon-social-vimeo
-    icon-social-xbox
-    icon-social-yelp
-    icon-social-youtube
-    icon-social-zerply
-    icon-mail
-
--------------------------------->
-
-<!-- add social info here -->
-
-
-
-        </div>
-
-      </div>
-
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Hexo</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
     </div>
-
-    <div class="panel-cover--overlay"></div>
+      
+        <p class="site-subtitle"></p>
+      
   </div>
-</header>
 
-    <div class="content-wrapper">
-        <div class="content-wrapper__inner entry">
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
             
-
-
-   <!-- do nothing -->
-
-
-<div class="main-post-list">
-    <ol class="post-list">
-    
-    
-    <li>
-
-      <h2 class="post-list__post-title post-title">
-        <a href="/2017/08/09/06-基于node.js编写程序/" title="link to "></a>
-      </h2>
-
-      <div class="post-list__meta">
-
-        <time datetime="2017-08-09" class="post-list__meta--date date">2017-08-09</time> 
-      </div>
-
-      <div class="excerpt">
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Startseite
+          </a>
+        </li>
+      
         
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
-
-      <h2 class="post-list__post-title post-title">
-        <a href="/2017/07/31/text/" title="link to text">text</a>
-      </h2>
-
-      <div class="post-list__meta">
-
-        <time datetime="2017-07-31" class="post-list__meta--date date">2017-07-31</time> 
-      </div>
-
-      <div class="excerpt">
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archiv
+          </a>
+        </li>
+      
         
-      </div>
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
 
-      <hr class="post-list__divider" />
-    </li>
-    
-    <li>
+      
+    </ul>
+  
 
-      <h2 class="post-list__post-title post-title">
-        <a href="/2017/07/30/hello-world/" title="link to Hello World">Hello World</a>
-      </h2>
-
-      <div class="post-list__meta">
-
-        <time datetime="2017-07-30" class="post-list__meta--date date">2017-07-30</time> 
-      </div>
-
-      <div class="excerpt">
-        
-      </div>
-
-      <hr class="post-list__divider" />
-    </li>
-    
-  </ol>
-
-  <hr class="post-list__divider " />
-
-<nav class="pagination" role="navigation">
-    
-
-    <span class="pagination__page-number"> 1 / 1</span>
-    
-    
+  
 </nav>
 
 
-</div>
-            <footer class="footer">
 
-    <span class="footer__copyright">&copy; 2014-2015. | 由<a href="https://hexo.io/">Hexo</a>强力驱动 | 主题<a href="https://github.com/someus/huno">Huno</a></span>
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
     
-</footer>
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/08/09/06-基于node.js编写程序/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="vafang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/08/09/06-基于node.js编写程序/" itemprop="url">Unbenannt</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-08-09T17:07:35+08:00">
+                2017-08-09
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
         </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="在-node-js-上编写程序"><a href="#在-node-js-上编写程序" class="headerlink" title="在 node.js 上编写程序"></a>在 node.js 上编写程序</h1><h2 id="REPL介绍"><a href="#REPL介绍" class="headerlink" title="REPL介绍"></a>REPL介绍</h2><ol>
+<li><p>REPL 全称: Read-Eval-Print-Loop（交互式解释器）</p>
+<ul>
+<li>R 读取 - 读取用户输入，解析输入了Javascript 数据结构并存储在内存中。</li>
+<li>E 执行 - 执行输入的数据结构</li>
+<li>P 打印 - 输出结果</li>
+<li>L 循环 - 循环操作以上步骤直到用户两次按下 ctrl-c 按钮退出。</li>
+</ul>
+</li>
+<li><p>在REPL中编写程序 （类似于浏览器开发人员工具中的控制台功能）</p>
+<ul>
+<li>直接在控制台输入 <code>node</code> 命令进入 REPL 环境</li>
+</ul>
+</li>
+<li><p>按两次 Control + C 退出REPL界面 或者 输入 <code>.exit</code> 退出 REPL 界面</p>
+<ul>
+<li>按住 control 键不要放开, 然后按两下 c 键</li>
+</ul>
+</li>
+</ol>
+<h2 id="创建-JavaScript-文件编写程序"><a href="#创建-JavaScript-文件编写程序" class="headerlink" title="创建 JavaScript 文件编写程序"></a>创建 JavaScript 文件编写程序</h2><h3 id="编程注意事项"><a href="#编程注意事项" class="headerlink" title="编程注意事项"></a>编程注意事项</h3><ul>
+<li>配置一下Sublime Text 的代码缩进格式为2个空格</li>
+<li><p>方式一</p>
+<p><img src="imgs/sublimeconf1.png" alt="@配置方式1"></p>
+</li>
+<li><p>方式二</p>
+<p><img src="imgs/sublimeconf21.png" alt="@配置方式2 - 第一步"></p>
+<p><img src="imgs/sublimeconf22.png" alt="配置方式2 - 第二步"></p>
+</li>
+</ul>
+<h3 id="JavaScript-文件名命名规则"><a href="#JavaScript-文件名命名规则" class="headerlink" title="JavaScript 文件名命名规则"></a>JavaScript 文件名命名规则</h3><ul>
+<li>不要用中文</li>
+<li>不要包含空格</li>
+<li>不要出现node关键字</li>
+<li>建议以 ‘-‘ 分割单词</li>
+</ul>
+<h3 id="案例"><a href="#案例" class="headerlink" title="案例"></a>案例</h3><ol>
+<li>案例1：编写一个简单的函数, 实现数字相加</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> n = <span class="number">10</span>;</div><div class="line"><span class="keyword">var</span> m = <span class="number">100</span>;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">add</span>(<span class="params">x, y</span>) </span>&#123;</div><div class="line">  <span class="keyword">return</span> x + y;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">var</span> result = add(m, n);</div><div class="line"></div><div class="line"><span class="built_in">console</span>.log(<span class="string">'计算结果是：'</span> + result);</div></pre></td></tr></table></figure>
+<ol>
+<li>案例2：编写一个输出’三角形’的程序</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++) &#123;</div><div class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> j = <span class="number">0</span>; j &lt;= i; j++) &#123;</div><div class="line">    <span class="comment">// 注意：console.log()输出完毕后是带换行的，所以这样做不可以</span></div><div class="line">    <span class="comment">// console.log('*');</span></div><div class="line">    process.stdout.write(<span class="string">'* '</span>);</div><div class="line">  &#125;</div><div class="line">  process.stdout.write(<span class="string">'\n'</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<ol>
+<li>案例3：控制台接收用户的输入</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 加载读取控制台输入的模块</span></div><div class="line"><span class="keyword">var</span> readline = <span class="built_in">require</span>(<span class="string">'readline'</span>);</div><div class="line"></div><div class="line"><span class="comment">// 创建一个在控制台与用户交互的对象</span></div><div class="line"><span class="keyword">var</span> rl = readline.createInterface(&#123;</div><div class="line">  input: process.stdin,</div><div class="line">  output: process.stdout</div><div class="line">&#125;);</div><div class="line"></div><div class="line"><span class="comment">// 输出提示，等待用户输入</span></div><div class="line">rl.question(<span class="string">'你叫什么名字? '</span>, (answer) =&gt; &#123;</div><div class="line">  <span class="built_in">console</span>.log(<span class="string">'欢迎: %s'</span>, answer);</div><div class="line"></div><div class="line">  <span class="comment">// 关闭rl实例</span></div><div class="line">  rl.close();</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<ol>
+<li><p>案例4：文件读写案例（带同学们打开官方文档查阅）</p>
+<ul>
+<li><p>使用到的模块<code>var fs = require(&#39;fs&#39;);</code></p>
+</li>
+<li><p>1、写文件：<code>fs.writeFile(file, data[, options], callback);</code></p>
+<ul>
+<li>参数1：要写入的文件路径，<strong>必填</strong>。</li>
+<li>参数2：要写入的数据，<strong>必填</strong>。</li>
+<li>参数3：写入文件时的选项，比如：文件编码，选填。</li>
+<li>参数4：文件写入完毕后的回调函数，<strong>必填</strong>。</li>
+<li>写文件注意：<ul>
+<li>该操作采用异步执行</li>
+<li>如果文件已经存在则替换掉</li>
+<li>默认写入的文件编码为utf8</li>
+<li>回调函数有1个参数：err，表示在写入文件的操作过程中是否出错了。<ul>
+<li>如果出错了<code>err != null</code>，否则 <code>err === null</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>2、读文件：<code>fs.readFile(file[, options], callback)</code></p>
+<ul>
+<li>参数1：要读取的文件路径，<strong>必填</strong>。</li>
+<li>参数2：读取文件时的选项，比如：文件编码。选填。</li>
+<li>参数3：文件读取完毕后的回调函数，<strong>必填</strong>。</li>
+<li>读文件注意：<ul>
+<li>该操作采用异步执行</li>
+<li>回调函数有两个参数，分别是err和data</li>
+<li>如果读取文件时没有指定编码，那么返回的将是原生的二进制数据；如果指定了编码，那么会根据指定的编码返回对应的字符串数据。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>注意：<ul>
+<li>文件操作中的<code>./</code>表示当前路径，相对的是执行node命令的路径，而不是当前被执行的<code>*.js</code>文件的实际路径。</li>
+<li><code>__dirname</code>才永远表示当前被执行的<code>*.js</code>文件的实际路径</li>
+<li><code>/</code>表示根目录, 读取文件或写入文件的时候写<code>/</code>目录，在Windows下相当于当前磁盘根目录（比如：c:\ 或 d:\ 或 e:\  等，在Mac下相当于硬盘根目录 <code>/</code>）</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// --------------------------------- 写文件 -----------------------------</span></div><div class="line"><span class="comment">// 加载文件操作模块</span></div><div class="line"><span class="keyword">var</span> fs = <span class="built_in">require</span>(<span class="string">'fs'</span>);</div><div class="line"></div><div class="line"><span class="comment">// 创建要写入的文件的字符串</span></div><div class="line"><span class="keyword">var</span> msg = <span class="string">'你好，世界！你好 Node.js.'</span>;</div><div class="line"><span class="comment">// 执行文件写入操作</span></div><div class="line">fs.writeFile(<span class="string">'./data.txt'</span>, msg, <span class="string">'utf8'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">err</span>) </span>&#123;</div><div class="line">  <span class="built_in">console</span>.log(<span class="string">'---'</span> + err + <span class="string">'----'</span>);</div><div class="line">  <span class="comment">// /判断是否写入文件出错了</span></div><div class="line">  <span class="keyword">if</span> (err) &#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'文件写入出错了，详细错误信息：'</span> + err);</div><div class="line">    <span class="comment">// 把错误继续向上抛出</span></div><div class="line">    <span class="keyword">throw</span> err;</div><div class="line">  &#125; <span class="keyword">else</span> &#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'文件写入成功！'</span>);</div><div class="line">  &#125;</div><div class="line">&#125;);</div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">// --------------------------------- 读文件 -----------------------------</span></div><div class="line"><span class="comment">// 加载文件操作模块</span></div><div class="line"><span class="keyword">var</span> fs = <span class="built_in">require</span>(<span class="string">'fs'</span>);</div><div class="line"></div><div class="line"><span class="comment">// 执行文件读取操作</span></div><div class="line">fs.readFile(<span class="string">'./data.txt'</span>, <span class="string">'utf8'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">err, data</span>) </span>&#123;</div><div class="line">  <span class="comment">// 输出err  和 data</span></div><div class="line">  <span class="comment">// console.log('error: ' + err);</span></div><div class="line">  <span class="comment">// console.log('data: ' + data);</span></div><div class="line"></div><div class="line">  <span class="keyword">if</span> (err) &#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'文件读取出错啦！详细信息: '</span> + err);</div><div class="line">  &#125; <span class="keyword">else</span> &#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'文件读取成功，以下是文件内容：'</span>);</div><div class="line">    <span class="built_in">console</span>.log(data);</div><div class="line">  &#125;</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<ol>
+<li>案例5：创建目录案例</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 创建一个文件夹</span></div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">// 加载文件操作模块</span></div><div class="line"><span class="keyword">var</span> fs = <span class="built_in">require</span>(<span class="string">'fs'</span>);</div><div class="line"></div><div class="line"><span class="comment">// 创建一个目录</span></div><div class="line">fs.mkdir(<span class="string">'test-mkdir'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">err</span>) </span>&#123;</div><div class="line">  <span class="keyword">if</span> (err) &#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'创建目录出错了，详细信息如下：'</span>);</div><div class="line">    <span class="built_in">console</span>.log(err);</div><div class="line">  &#125; <span class="keyword">else</span> &#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'目录创建成功！'</span>);</div><div class="line">  &#125;</div><div class="line"></div><div class="line">&#125;);</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">// ----------------------------------------------------------</span></div><div class="line"></div><div class="line"><span class="comment">// 加载文件操作模块</span></div><div class="line"><span class="keyword">var</span> fs = <span class="built_in">require</span>(<span class="string">'fs'</span>);</div><div class="line"></div><div class="line"><span class="comment">// 1. 创建 '01-教学资料' 目录</span></div><div class="line">fs.mkdir(<span class="string">'./01-教学资料'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">err</span>) </span>&#123;</div><div class="line"></div><div class="line">  <span class="keyword">if</span> (err) &#123;</div><div class="line">    <span class="keyword">throw</span> err;</div><div class="line">  &#125;</div><div class="line"></div><div class="line">  <span class="comment">// 1.1 创建 '01-笔记大纲' 目录</span></div><div class="line">  fs.mkdir(<span class="string">'./01-教学资料/01-笔记大纲'</span>);</div><div class="line"></div><div class="line">  <span class="comment">// 1.2 创建 '02-作业任务' 目录</span></div><div class="line">  fs.mkdir(<span class="string">'./01-教学资料/02-作业任务'</span>);</div><div class="line"></div><div class="line">  <span class="comment">// 1.3 创建 '03-素材资料' 目录</span></div><div class="line">  fs.mkdir(<span class="string">'./01-教学资料/03-素材资料'</span>);</div><div class="line"></div><div class="line">  <span class="comment">// 1.4 创建 '04-随堂笔记' 目录</span></div><div class="line">  fs.mkdir(<span class="string">'./01-教学资料/04-随堂笔记'</span>);</div><div class="line"></div><div class="line">&#125;);</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">// 2. 创建 '02-源代码' 目录</span></div><div class="line">fs.mkdir(<span class="string">'./02-源代码'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">err</span>) </span>&#123;</div><div class="line"></div><div class="line">  <span class="keyword">if</span> (err) &#123;</div><div class="line">    <span class="keyword">throw</span> err;</div><div class="line">  &#125;</div><div class="line"></div><div class="line">  <span class="comment">// 2.1 创建 '预习代码'目录</span></div><div class="line">  fs.mkdir(<span class="string">'./02-源代码/预习代码'</span>);</div><div class="line"></div><div class="line">  <span class="comment">// 2.2 创建 '课堂代码'目录</span></div><div class="line">  fs.mkdir(<span class="string">'./02-源代码/课堂代码'</span>);</div><div class="line">&#125;);</div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">// 3. 创建 '03-视频' 目录</span></div><div class="line">fs.mkdir(<span class="string">'./03-视频'</span>);</div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">// 4. 创建 '04-其他资料' 目录</span></div><div class="line">fs.mkdir(<span class="string">'./04-其他资料'</span>);</div></pre></td></tr></table></figure>
+<h3 id="注意："><a href="#注意：" class="headerlink" title="注意："></a>注意：</h3><ol>
+<li>异步操作无法通过 try-catch 来捕获异常，要通过判断 error 来判断是否出错。</li>
+<li>同步操作可以通过 try-catch 来捕获异常。</li>
+<li>不要使用 <code>fs.exists(path, callback)</code> 来判断文件是否存在，直接判断 error 即可</li>
+<li>文件操作时的路径问题<ul>
+<li>在读写文件的时候 ‘./‘ 表示的是当前执行node命令的那个路径，不是被执行的js文件的路径</li>
+<li>__dirname, 表示的永远是”当前被执行的js的目录”</li>
+<li>__filename, 表示的是”被执行的js的文件名（含路径)”</li>
+</ul>
+</li>
+</ol>
+<h3 id="案例6：通过-node-js-编写-http-服务程序-极简版本"><a href="#案例6：通过-node-js-编写-http-服务程序-极简版本" class="headerlink" title="案例6：通过 node.js 编写 http 服务程序 - 极简版本"></a>案例6：通过 node.js 编写 http 服务程序 - 极简版本</h3><p>步骤：</p>
+<ol>
+<li>加载http模块</li>
+<li>创建http服务</li>
+<li>为http服务对象添加request事件处理程序</li>
+<li>开启http服务监听，准备接收客户端请求</li>
+</ol>
+<p>注意：</p>
+<ol>
+<li><p>浏览器显示可能是乱码，所以可以通过 <code>res.setHeader(&#39;Content-Type&#39;, &#39;text/plain; charset=utf-8&#39;);</code>设置浏览器显示时所使用的编码。</p>
+</li>
+<li><p>Chrome 浏览器默认无法手动设置编码，需要安装”Set Character Encoding”扩展。</p>
+</li>
+<li><p>演示一下设置<code>Content-Type=text/html</code> 和 <code>Content-Type=text/plain</code>的区别。</p>
+</li>
+</ol>
+<p>参考代码：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="comment">// 1. 加载http模块</span></div><div class="line"><span class="keyword">var</span> http = <span class="built_in">require</span>(<span class="string">'http'</span>);</div><div class="line"></div><div class="line"><span class="comment">// 2. 创建http服务</span></div><div class="line"><span class="keyword">var</span> server = http.createServer();</div><div class="line"></div><div class="line"><span class="comment">// 3. 开始监听'request'事件</span></div><div class="line"><span class="comment">// 详细解释一下request对象和response对象</span></div><div class="line">server.on(<span class="string">'request'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">req, res</span>) </span>&#123;</div><div class="line">  <span class="comment">// body...</span></div><div class="line">  <span class="built_in">console</span>.log(<span class="string">'有人请求了~~'</span>);</div><div class="line">&#125;);</div><div class="line"></div><div class="line"><span class="comment">// 4. 启动服务，开始监听</span></div><div class="line">server.listen(<span class="number">9000</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="built_in">console</span>.log(<span class="string">'服务已经启动，请访问： http://localhost:9000'</span>);</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<h3 id="案例7：通过-node-js-编写-http-服务程序-根据不同请求作出不同响应"><a href="#案例7：通过-node-js-编写-http-服务程序-根据不同请求作出不同响应" class="headerlink" title="案例7：通过 node.js 编写 http 服务程序 - 根据不同请求作出不同响应"></a>案例7：通过 node.js 编写 http 服务程序 - 根据不同请求作出不同响应</h3><h4 id="说明："><a href="#说明：" class="headerlink" title="说明："></a>说明：</h4><ul>
+<li>根据不同请求，显示index页面、login页面、register页面、list页面。</li>
+<li>请求 / 或 /index</li>
+<li>请求 /login</li>
+<li>请求 /register</li>
+<li>请求 /list</li>
+</ul>
+<h4 id="参考代码"><a href="#参考代码" class="headerlink" title="参考代码"></a>参考代码</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 加载http模块</span></div><div class="line"><span class="keyword">var</span> http = <span class="built_in">require</span>(<span class="string">'http'</span>);</div><div class="line"></div><div class="line"><span class="comment">// 创建http server</span></div><div class="line"><span class="keyword">var</span> server = http.createServer(<span class="function"><span class="keyword">function</span> (<span class="params">req, res</span>) </span>&#123;</div><div class="line">  <span class="comment">// body...</span></div><div class="line">  <span class="built_in">console</span>.log(req.url);</div><div class="line"></div><div class="line"></div><div class="line">  <span class="keyword">if</span> (req.url === <span class="string">'/'</span> || req.url === <span class="string">'/index'</span>) &#123;</div><div class="line">    <span class="comment">// 表示请求网站首页</span></div><div class="line">    res.end(<span class="string">'这是 index.html'</span>);</div><div class="line"></div><div class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (req.url === <span class="string">'/login'</span>) &#123;</div><div class="line">    <span class="comment">// 表示请求登录页面</span></div><div class="line">    res.end(<span class="string">'这是 login.html'</span>);</div><div class="line"></div><div class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (req.url === <span class="string">'/register'</span>) &#123;</div><div class="line">    <span class="comment">// 表示请求注册页面</span></div><div class="line">    res.end(<span class="string">'这是 register.html'</span>);</div><div class="line">    </div><div class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (req.url === <span class="string">'/list'</span>) &#123;</div><div class="line">    <span class="comment">// 表示请求列表页面</span></div><div class="line">    res.end(<span class="string">'这是 list.html'</span>);</div><div class="line">    </div><div class="line">  &#125; <span class="keyword">else</span> &#123;</div><div class="line">    <span class="comment">// 表示请求的页面不存在</span></div><div class="line">    res.writeHead(<span class="number">404</span>, <span class="string">'Not Found'</span>);</div><div class="line">    res.end(<span class="string">'Sorry, page not found.'</span>);</div><div class="line">  &#125;</div><div class="line">&#125;);</div><div class="line"></div><div class="line"><span class="comment">// 监听端口的网络请求</span></div><div class="line">server.listen(<span class="number">9000</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="built_in">console</span>.log(<span class="string">'http://localhost:9000'</span>);</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<h3 id="案例8：通过-node-js-编写-http-服务程序-通过读取静态-HTML-文件来响应用户请求"><a href="#案例8：通过-node-js-编写-http-服务程序-通过读取静态-HTML-文件来响应用户请求" class="headerlink" title="案例8：通过 node.js 编写 http 服务程序 - 通过读取静态 HTML 文件来响应用户请求"></a>案例8：通过 node.js 编写 http 服务程序 - 通过读取静态 HTML 文件来响应用户请求</h3><p>步骤：</p>
+<ol>
+<li>创建index.html、login.html、register.html、list.html、404.html文件。 </li>
+<li>演示通过读取最简单的 HTML 文件来响应用户。</li>
+<li>演示通过读取”具有引入外部CSS样式表”的HTML文件来响应用户。</li>
+<li>演示通过读取”具有img标签”的HTML文件来响应用户。</li>
+</ol>
+<p>注意：</p>
+<ul>
+<li><p>1、注意在发送不同类型的文件时，要设置好对应的<code>Content-Type</code></p>
+<ul>
+<li><a href="http://tool.oschina.net/commons" target="_blank" rel="external">Content-Type参考 OSChina</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types" target="_blank" rel="external">Content-Type参考 MDN</a></li>
+</ul>
+</li>
+<li><p>2、HTTP状态码参考</p>
+<ul>
+<li><a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html" target="_blank" rel="external">w3org参考</a></li>
+<li><a href="https://www.w3schools.com/tags/ref_httpmessages.asp" target="_blank" rel="external">w3schools参考</a></li>
+</ul>
+</li>
+<li><p>3、在html页面中写相对路径’./‘ 和 绝对路径 ‘/‘的含义 。</p>
+<ul>
+<li>网页中的这个路径主要是告诉浏览器向哪个地址发起请求用的</li>
+<li>‘./‘ 表示本次请求从相对于当前页面的请求路径（即服务器返回当前页面时的请求路径）开始</li>
+<li>‘/‘ 表示请求从根目录开始</li>
+</ul>
+</li>
+</ul>
+<p>补充知识点：</p>
+<ol>
+<li>path 模块的 join() 方法</li>
+</ol>
+<p>参考代码：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="comment">// 1. 加载 http 模块</span></div><div class="line"><span class="keyword">var</span> http = <span class="built_in">require</span>(<span class="string">'http'</span>);</div><div class="line"><span class="comment">// 加载文件操作模块</span></div><div class="line"><span class="keyword">var</span> fs = <span class="built_in">require</span>(<span class="string">'fs'</span>);</div><div class="line"><span class="comment">// 加载path模块，这个模块主要用来处理各种路径。</span></div><div class="line"><span class="keyword">var</span> path = <span class="built_in">require</span>(<span class="string">'path'</span>);</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">// 2. 创建http server</span></div><div class="line"><span class="keyword">var</span> server = http.createServer(<span class="function"><span class="keyword">function</span> (<span class="params">req, res</span>) </span>&#123;</div><div class="line">  <span class="comment">// 1. 获取用户请求的URL</span></div><div class="line">  <span class="keyword">var</span> url = req.url.toLowerCase();</div><div class="line"></div><div class="line">  <span class="comment">// 2. 根据用户的不同请求，做出不同响应</span></div><div class="line">  <span class="keyword">if</span> (url === <span class="string">'/'</span> || url === <span class="string">'/index'</span>) &#123;</div><div class="line">    <span class="comment">// 读取index.html文件，把该文件响应给用户</span></div><div class="line">    fs.readFile(path.join(__dirname, <span class="string">'index.html'</span>), <span class="function"><span class="keyword">function</span> (<span class="params">err, data</span>) </span>&#123;</div><div class="line">      <span class="keyword">if</span> (err) &#123;</div><div class="line">        <span class="keyword">throw</span> err;</div><div class="line">      &#125;</div><div class="line">      res.writeHead(<span class="number">200</span>, <span class="string">'OK'</span>, &#123;</div><div class="line">        <span class="string">'Content-Type'</span>: <span class="string">'text/html; charset=utf-8'</span></div><div class="line">      &#125;);</div><div class="line">      <span class="comment">// res.setHeader('Content-Type', 'text/html; charset=utf-8');</span></div><div class="line">      res.end(data);</div><div class="line"></div><div class="line">    &#125;);</div><div class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (url === <span class="string">'/login'</span>) &#123;</div><div class="line">    <span class="comment">// 读取login.html文件，把该文件响应给用户</span></div><div class="line">    fs.readFile(path.join(__dirname, <span class="string">'login.html'</span>), <span class="function"><span class="keyword">function</span> (<span class="params">err, data</span>) </span>&#123;</div><div class="line">      <span class="keyword">if</span> (err) &#123;</div><div class="line">        <span class="keyword">throw</span> err;</div><div class="line">      &#125;</div><div class="line">      res.writeHead(<span class="number">200</span>, <span class="string">'OK'</span>, &#123;</div><div class="line">        <span class="string">'Content-Type'</span>: <span class="string">'text/html; charset=utf-8'</span></div><div class="line">      &#125;);</div><div class="line">      <span class="comment">// res.setHeader('Content-Type', 'text/html; charset=utf-8');</span></div><div class="line">      res.end(data);</div><div class="line"></div><div class="line">    &#125;);</div><div class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (url === <span class="string">'/register'</span>) &#123;</div><div class="line">    <span class="comment">// 读取register.html文件，把该文件响应给用户</span></div><div class="line">    fs.readFile(path.join(__dirname, <span class="string">'register.html'</span>), <span class="function"><span class="keyword">function</span> (<span class="params">err, data</span>) </span>&#123;</div><div class="line">      <span class="keyword">if</span> (err) &#123;</div><div class="line">        <span class="keyword">throw</span> err;</div><div class="line">      &#125;</div><div class="line">      res.writeHead(<span class="number">200</span>, <span class="string">'OK'</span>, &#123;</div><div class="line">        <span class="string">'Content-Type'</span>: <span class="string">'text/html; charset=utf-8'</span></div><div class="line">      &#125;);</div><div class="line">      <span class="comment">// res.setHeader('Content-Type', 'text/html; charset=utf-8');</span></div><div class="line">      res.end(data);</div><div class="line"></div><div class="line">    &#125;);</div><div class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (url === <span class="string">'/404'</span>) &#123;</div><div class="line">    <span class="comment">// 读取register.html文件，把该文件响应给用户</span></div><div class="line">    fs.readFile(path.join(__dirname, <span class="string">'404.html'</span>), <span class="function"><span class="keyword">function</span> (<span class="params">err, data</span>) </span>&#123;</div><div class="line">      <span class="keyword">if</span> (err) &#123;</div><div class="line">        <span class="keyword">throw</span> err;</div><div class="line">      &#125;</div><div class="line">      res.writeHead(<span class="number">200</span>, <span class="string">'OK'</span>, &#123;</div><div class="line">        <span class="string">'Content-Type'</span>: <span class="string">'text/html; charset=utf-8'</span></div><div class="line">      &#125;);</div><div class="line">      <span class="comment">// res.setHeader('Content-Type', 'text/html; charset=utf-8');</span></div><div class="line">      res.end(data);</div><div class="line"></div><div class="line">    &#125;);</div><div class="line">  &#125;</div><div class="line">  </div><div class="line">&#125;);</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">// 3. 启动服务</span></div><div class="line">server.listen(<span class="number">9090</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="comment">// body...</span></div><div class="line">  <span class="built_in">console</span>.log(<span class="string">'please visit: http://localhost:9090'</span>);</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<h3 id="案例9：模拟-Apache-实现静态资源服务器"><a href="#案例9：模拟-Apache-实现静态资源服务器" class="headerlink" title="案例9：模拟 Apache 实现静态资源服务器"></a>案例9：模拟 Apache 实现静态资源服务器</h3><p>步骤：</p>
+<ul>
+<li>单独创建一个目录来实现，比如：创建一个”07-Apache”的目录。</li>
+<li>在该目录下新建 <code>public</code> 目录，假设该目录为静态资源目录。</li>
+<li>根据用户请求的路径在 public 目录下寻找对应路径下的资源。</li>
+<li>如果找到了，那么将该资源返回给用户，如果没找到则返回404错误。</li>
+<li>通过 mime 模块设置不同类型资源的Content-Type</li>
+<li>实现完毕后把素材中的’An Ocean of Sky’ 和 ‘Hacker News’分别拷贝到静态资源目录下, 测试是否成功</li>
+</ul>
+<p>其他：</p>
+<ul>
+<li>介绍 NPM</li>
+<li>介绍 mime 第三方模块<ul>
+<li><code>npm install mime</code></li>
+<li>在代码中直接 <code>var mime = require(&#39;mime&#39;)</code></li>
+</ul>
+</li>
+</ul>
+<p>参考代码：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="comment">// 1. 加载对应模块</span></div><div class="line"><span class="comment">// 1.1 加载http模块</span></div><div class="line"><span class="keyword">var</span> http = <span class="built_in">require</span>(<span class="string">'http'</span>);</div><div class="line"><span class="comment">// 1.2 加载path模块，方便路径拼接</span></div><div class="line"><span class="keyword">var</span> path = <span class="built_in">require</span>(<span class="string">'path'</span>);</div><div class="line"><span class="comment">// 1.3 加载文件读取模块</span></div><div class="line"><span class="keyword">var</span> fs = <span class="built_in">require</span>(<span class="string">'fs'</span>);</div><div class="line"><span class="comment">// 1.4 加载判断文件MIME类型的模块</span></div><div class="line"><span class="keyword">var</span> mime = <span class="built_in">require</span>(<span class="string">'mime'</span>);</div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">// 2. 创建http server</span></div><div class="line"><span class="keyword">var</span> server = http.createServer();</div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">// 3. 监听用户request事件</span></div><div class="line">server.on(<span class="string">'request'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">req, res</span>) </span>&#123;</div><div class="line">  <span class="comment">// 1. 获取用户的请求路径, 并转换为小写</span></div><div class="line">  <span class="keyword">var</span> url = req.url.toLowerCase();</div><div class="line"></div><div class="line">  <span class="comment">// 判断如果请求的路径是 '/' 那么等价于 '/index.html'</span></div><div class="line">  url = (url === <span class="string">'/'</span>) ? <span class="string">'/index.html'</span> : url;</div><div class="line"></div><div class="line">  <span class="comment">// 2. 根据用户请求的url路径, 去public目录下查找对应的静态资源文件。找到后读取该文件，并将结果返回给用户</span></div><div class="line">  <span class="comment">// 2.1 根据用户请求的url拼接本地资源文件的路径</span></div><div class="line">  <span class="keyword">var</span> filePath = path.join(__dirname, <span class="string">'public'</span>, url);</div><div class="line"></div><div class="line">  <span class="comment">// 2.2 根据请求的文件路径设置Content-Type</span></div><div class="line">  res.setHeader(<span class="string">'Content-Type'</span>, mime.lookup(url));</div><div class="line"></div><div class="line">  <span class="comment">// 2.2 根据路径去读取对应的文件</span></div><div class="line">  <span class="comment">// 【注意】读取文件前无需判断文件是否已经存在，而是在读取文件的回调函数中根据error的错误信息来判断读取文件是否成功以及发生的错误</span></div><div class="line">  fs.readFile(filePath, <span class="function"><span class="keyword">function</span> (<span class="params">err, data</span>) </span>&#123;</div><div class="line">    <span class="comment">// 判断是否有错误</span></div><div class="line">    <span class="keyword">if</span> (err) &#123;</div><div class="line"></div><div class="line">      <span class="keyword">if</span> (err.code === <span class="string">'ENOENT'</span>) &#123; <span class="comment">// 判断是否是请求的文件是否不存在</span></div><div class="line"></div><div class="line">        res.setHeader(<span class="string">'Content-Type'</span>, <span class="string">'text/html; charset=utf8'</span>);</div><div class="line">        res.statusCode = <span class="number">404</span>;</div><div class="line">        res.statusMessage = <span class="string">'Not Found'</span>;</div><div class="line">        res.end(<span class="string">'&lt;h1&gt;请求的资源不存在！&lt;/h1&gt;'</span>);</div><div class="line"></div><div class="line">      &#125; <span class="keyword">else</span> <span class="keyword">if</span> (err.code === <span class="string">'EACCES'</span>) &#123; <span class="comment">// 判断文件是否有访问权限</span></div><div class="line"></div><div class="line">        res.setHeader(<span class="string">'Content-Type'</span>, <span class="string">'text/html; charset=utf8'</span>);</div><div class="line">        res.statusCode = <span class="number">403</span>;</div><div class="line">        res.statusMessage = <span class="string">'Forbidden'</span>;</div><div class="line">        res.end(<span class="string">'&lt;h1&gt;Permission denied！&lt;/h1&gt;'</span>);</div><div class="line">      &#125; <span class="keyword">else</span> &#123;</div><div class="line"></div><div class="line">        <span class="keyword">throw</span> err;  </div><div class="line">      &#125;</div><div class="line"></div><div class="line">    &#125; <span class="keyword">else</span> &#123;</div><div class="line">      </div><div class="line">      <span class="comment">// 如果没有错误则将读取到的文件返回给用户</span></div><div class="line">      res.statusCode = <span class="number">200</span>;</div><div class="line">      res.statusMessage = <span class="string">'OK'</span>;</div><div class="line">      res.end(data);</div><div class="line">    &#125;</div><div class="line">  &#125;)</div><div class="line">&#125;);</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">// 4. 启动服务</span></div><div class="line">server.listen(<span class="number">9000</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">  <span class="comment">// body...</span></div><div class="line">  <span class="built_in">console</span>.log(<span class="string">'server is running, please visit: http://localhost:9000'</span>);</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<h2 id="Common-System-Errors-常见错误号"><a href="#Common-System-Errors-常见错误号" class="headerlink" title="Common System Errors - 常见错误号"></a>Common System Errors - 常见错误号</h2><ul>
+<li><p>EACCES (Permission denied)</p>
+<ul>
+<li>An attempt was made to access a file in a way forbidden by its file access permissions.</li>
+<li>访问被拒绝</li>
+</ul>
+</li>
+<li><p>EADDRINUSE (Address already in use)</p>
+<ul>
+<li>An attempt to bind a server (net, http, or https) to a local address failed due to another server on the local system already occupying that address.</li>
+<li>地址正在被使用（比如：端口号备占用）</li>
+</ul>
+</li>
+<li><p>EEXIST (File exists)</p>
+<ul>
+<li>An existing file was the target of an operation that required that the target not exist.</li>
+<li>文件已经存在</li>
+</ul>
+</li>
+<li><p>EISDIR (Is a directory)</p>
+<ul>
+<li>An operation expected a file, but the given pathname was a directory.</li>
+<li>给定的路径是目录</li>
+</ul>
+</li>
+<li><p>ENOENT (No such file or directory)</p>
+<ul>
+<li>Commonly raised by fs operations to indicate that a component of the specified pathname does not exist – no entity (file or directory) could be found by the given path.</li>
+<li>文件 或 目录不存在</li>
+</ul>
+</li>
+<li><p>ENOTDIR (Not a directory)</p>
+<ul>
+<li>A component of the given pathname existed, but was not a directory as expected. Commonly raised by fs.readdir.</li>
+<li>给定的路径不是目录</li>
+</ul>
+</li>
+</ul>
+<h2 id="同步文件操作-和-异步文件操作"><a href="#同步文件操作-和-异步文件操作" class="headerlink" title="同步文件操作 和 异步文件操作"></a>同步文件操作 和 异步文件操作</h2><ul>
+<li><code>fs.readFile(file[, options], callback)</code></li>
+<li><code>fs.readFileSync(file[, options])</code></li>
+</ul>
+<h2 id="通过设置-http-响应报文头实现弹框下载功能"><a href="#通过设置-http-响应报文头实现弹框下载功能" class="headerlink" title="通过设置 http 响应报文头实现弹框下载功能"></a>通过设置 http 响应报文头实现弹框下载功能</h2><ol>
+<li>设置 <code>Content-Type: application/octet-stream</code></li>
+<li>设置 <code>Content-Disposition: attachment; filename=demo.txt</code></li>
+</ol>
+
+          
+        
+      
     </div>
-
-    <!-- js files -->
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/main.js"></script>
-    <script src="/js/scale.fix.js"></script>
+    
+    
     
 
     
 
-    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/javascript"> 
-        $(document).ready(function(){
-            MathJax.Hub.Config({ 
-                tex2jax: {inlineMath: [['[latex]','[/latex]'], ['\\(','\\)']]} 
-            });
-        });
-    </script>
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
 
 
     
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/31/text/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="vafang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/07/31/text/" itemprop="url">text</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-07-31T00:31:26+08:00">
+                2017-07-31
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
     
     
-    <!--kill ie6 -->
-<!--[if IE 6]>
-  <script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.js"></script>
-<![endif]-->
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="标题1"><a href="#标题1" class="headerlink" title="标题1"></a>标题1</h1><h2 id="标题2"><a href="#标题2" class="headerlink" title="标题2"></a>标题2</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">	<span class="function"><span class="keyword">function</span> <span class="title">test</span>(<span class="params"></span>)</span>&#123;</div><div class="line">	<span class="built_in">console</span>.log(<span class="string">"test"</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<ul>
+<li>列表1</li>
+<li>列表1</li>
+<li>列表1</li>
+<li>列表1</li>
+<li>列表1</li>
+<li>列表1</li>
+</ul>
+<p><a href="http://www.baidu.com" target="_blank" rel="external">百度</a></p>
+<p>![图片]</p>
+<table>
+<thead>
+<tr>
+<th>表头1</th>
+<th>表头2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>名称</td>
+<td>js</td>
+</tr>
+<tr>
+<td>课时</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/30/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="vafang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/07/30/hello-world/" itemprop="url">Hello World</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-07-30T20:58:00+08:00">
+                2017-07-30
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="vafang" />
+          <p class="site-author-name" itemprop="name">vafang</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">Artikel</span>
+              </a>
+            </div>
+          
+
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">Tags</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">vafang</span>
+
+  
+</div>
+
+
+  <div class="powered-by">
+    Erstellt mit  <a class="theme-link" href="https://hexo.io">Hexo</a>
+  </div>
+
+  <span class="post-meta-divider">|</span>
+
+  <div class="theme-info">
+    Theme &mdash;
+    <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+      NexT.Muse
+    </a>
+  </div>
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
+
+
+
+  
+  
+
+  
+    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
 </body>
 </html>
